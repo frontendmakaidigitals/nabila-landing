@@ -4,9 +4,14 @@ import {
   Geist_Mono,
   Cormorant_Garamond,
   Roboto,
+  Inter,
 } from "next/font/google";
 import "./globals.css";
 import Header from "./header/header";
+import { cn } from "@/lib/utils";
+import Footer from "./footer/footer";
+const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -38,11 +43,21 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${roboto.variable} ${geistMono.variable} ${cormorant.variable} h-full antialiased`}
+      className={cn(
+        "h-full",
+        "antialiased",
+        geistSans.variable,
+        roboto.variable,
+        geistMono.variable,
+        cormorant.variable,
+        "font-sans",
+        inter.variable,
+      )}
     >
       <body className="min-h-full flex flex-col">
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
