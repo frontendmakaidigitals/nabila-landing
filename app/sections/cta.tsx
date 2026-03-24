@@ -5,7 +5,7 @@ const CTA = () => {
     <section className="mt-20">
       <div className="grid grid-cols-1  lg:grid-cols-2">
         <div className="bg-[#4A4233] px-7 py-28">
-          <h2 className="font-primary text-gray-100 text-5xl">
+          <h2 className="font-primary text-gray-100 text-4xl lg:text-5xl">
             Ready to upgrade?
           </h2>
           <p className="text-gray-100 text-lg font-roboto font-light mt-4 mb-8">

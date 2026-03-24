@@ -48,7 +48,7 @@ export default function Testimonials() {
       <div className="container mx-auto">
         <div className="flex items-end lg:items-center justify-end mb-10 gap-6">
           <h2 className="text-4xl md:text-5xl font-light text-[#4A4233]">
-            <span className="mr-4">05</span> Testimonials
+            <span className="">05</span> Testimonials
           </h2>
 
           <div className="flex gap-3">
@@ -56,13 +56,13 @@ export default function Testimonials() {
               onClick={() => api?.scrollPrev()}
               className="p-2 transition hover:bg-gray-200"
             >
-              <ArrowLeft className="size-10  text-[#4A4233] stroke-1" />
+              <ArrowLeft className="size-6 lg:size-10  text-[#4A4233] stroke-1" />
             </button>
             <button
               onClick={() => api?.scrollNext()}
               className="p-2 hover:bg-gray-200 transition"
             >
-              <ArrowRight className="size-10 text-[#4A4233] stroke-1" />
+              <ArrowRight className="size-6 lg:size-10 text-[#4A4233] stroke-1" />
             </button>
           </div>
         </div>
