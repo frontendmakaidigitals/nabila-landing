@@ -67,10 +67,10 @@ const Banner = () => {
         />
         <Image
           ref={imageRef}
-          src={"/evolve.jpg"}
+          src={"/Gemini_Generated_Image_wgxte3wgxte3wgxt.png"}
           alt={"page Banner"}
           fill
-          className="object-cover object-bottom-left scale-[1.2]"
+          className="object-cover object-bottom scale-[1.2]"
         />
         <div className="flex items-end container h-full pb-8 justify-end">
           <h2
