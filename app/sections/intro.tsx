@@ -41,10 +41,10 @@ const Intro = () => {
       <div className="h-[260px] lg:h-[480px] w-full relative overflow-hidden">
         <div className="w-full h-full relative" ref={imageRef}>
           <Image
-            src={"/introduct.jpg"}
+            src={"/Gemini_Generated_Image_xlilacxlilacxlil.png"}
             fill
             alt={""}
-            className="object-cover scale-[1.5] lg:scale-[1.2]"
+            className="object-cover object-bottom scale-[1.5] lg:scale-[1.2]"
           />
         </div>
       </div>

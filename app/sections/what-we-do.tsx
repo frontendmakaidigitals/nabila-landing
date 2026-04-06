@@ -79,7 +79,7 @@ export default function WhatWeDo() {
         >
           <div className="w-full h-full relative " ref={imageRef}>
             <Image
-              src="/what-we-do.jpg"
+              src="/WhatsApp Image 2026-04-02 at 11.44.58 AM.jpeg"
               alt="What we do"
               fill
               className="object-cover"

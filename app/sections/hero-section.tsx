@@ -114,7 +114,7 @@ const HeroSection = () => {
           >
             <div ref={imageRef} className="relative w-full h-full">
               <Image
-                src="/hero.jpg"
+                src="/hero.jpeg"
                 alt="Hero Banner"
                 fill
                 priority

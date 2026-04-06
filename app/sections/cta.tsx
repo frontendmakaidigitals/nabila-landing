@@ -18,7 +18,7 @@ const CTA = () => {
           </button>
         </div>
         <div className="relative">
-          <Image src={"/cta.jpg"} alt={""} className={"object-cover"} fill />
+          <Image src={"/WhatsApp Image 2026-04-02 at 11.44.59 AM.jpeg"} alt={""} className={"object-cover"} fill />
         </div>
       </div>
     </section>

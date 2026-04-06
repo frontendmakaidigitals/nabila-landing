@@ -125,7 +125,7 @@ export default function AboutSection() {
           {/* IMAGE */}
           <div ref={mainImageRef} className="relative w-full h-full">
             <Image
-              src="/about/banner.jpg"
+              src="/WhatsApp Image 2026-03-31 at 8.25.06 PM.jpeg"
               alt="about"
               fill
               className="object-cover"

@@ -63,7 +63,7 @@ export default function BuiltToBelong() {
         >
           <div ref={imageRef} className="relative w-full h-full">
             <Image
-              src="/built.jpg"
+              src="/WhatsApp Image 2026-04-02 at 11.44.57 AM (1).jpeg"
               alt="Interior"
               fill
               className="object-cover"
